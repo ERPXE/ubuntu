@@ -1,0 +1,8 @@
+LABEL UBUNTUINSTALLX32OL
+MENU LABEL ^Ubuntu x32 Install - Internet
+KERNEL er/plugins/ubuntu/i386/linux
+INITRD er/plugins/ubuntu/i386/initrd.gz
+APPEND vga=788
+TEXT HELP
+                 Ubuntu x32 Internet Install.
+ENDTEXT
